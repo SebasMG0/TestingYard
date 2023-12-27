@@ -1,0 +1,3 @@
+GP : Graphs Exercise
+DP : Dinamic Programing
+HE : Heuristics
