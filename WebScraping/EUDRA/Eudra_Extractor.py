@@ -1,8 +1,3 @@
-"""
-    @author: Sebatián Murcia for IntegraIT
-
-"""
-
 import csv
 import time
 from bs4 import BeautifulSoup

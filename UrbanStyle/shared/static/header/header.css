@@ -1,0 +1,16 @@
+.banner{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+    gap: 5px;
+
+    border: blue 3px solid
+}
+
+
+#homeBanner{
+    
+}
