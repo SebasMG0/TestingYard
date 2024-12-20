@@ -11,12 +11,14 @@ public class Dijkstra {
     
     public Dijkstra() {
         this.queue = new PriorityQueue<>((o1, o2) -> Integer.compare(o1[0], o2[0]));
-        this.weights = new ArrayList<>();
-        this.visited = new ArrayList<>();
-        this.parents = new ArrayList<>();
     }
     
     public ArrayList<Integer> exec(int[][] graph, int origin, int objective) {
+    	
+    	this.weights = new ArrayList<>(graph.length);
+        this.visited = new ArrayList<>(graph.length);
+        this.parents = new ArrayList<>(graph.length);
+    	
         for (int i = 0; i < graph.length; i++) {
             weights.add(Integer.MAX_VALUE);
             parents.add(-1);
